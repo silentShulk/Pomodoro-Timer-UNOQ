@@ -1,4 +1,4 @@
-name: Timer controller by joystick and keypad
+name: PomodoroTimer
 description: ""
 ports: []
 bricks: []

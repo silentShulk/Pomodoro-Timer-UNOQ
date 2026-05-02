@@ -1,5 +1,6 @@
 profiles:
   default:
+    fqbn: 
     platforms:
       - platform: arduino:zephyr
     libraries:
@@ -7,4 +8,9 @@ profiles:
       - DebugLog (0.8.4)
       - ArxContainer (0.7.0)
       - ArxTypeTraits (0.3.1)
+      - LCDIC2 (2.3.3)
+      - Joystick-KY023 (1.0.1)
+      - Keypad (3.1.1)
+      - arduino-timer (3.0.1)
+
 default_profile: default
